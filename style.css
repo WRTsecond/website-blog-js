@@ -1,3 +1,7 @@
+:root {
+  --primary: #26408b
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +9,7 @@
 }
 
 body {
-  background-color: #a6cfd5;
+  background-color: white;
   font-family: sans-serif;
 }
 
@@ -15,7 +19,7 @@ body {
 }
 
 .navbar {
-  background-color: #26408b;
+  background-color: var(--primary);
   height: 100vh;
   bottom: 0;
   left: 0;
@@ -28,7 +32,7 @@ body {
 }
 
 .navbar a {
-  color: black;
+  color: white;
   width: 100%;
   padding: 15px;
   margin: 0px;
@@ -42,8 +46,8 @@ body {
 }
 
 .navbar a:hover {
-  background-color: #0f084b;
-  color: #c2e7d9;
+  background-color: white;
+  color: var(--primary);
 }
 
 .navbar a::before {
@@ -70,7 +74,6 @@ body {
   margin-left: 180px;
   margin-right: 30px;
 }
-
 
 .post-form {
   width: 100%; 
@@ -104,7 +107,7 @@ body {
 }
 
 .post-form button {
-  background-color: #26408b;
+  background-color: var(--primary);
   color: #c2e7d9;
   font-size: 20px;
   border-radius: 25px 25px 25px 25px; 
